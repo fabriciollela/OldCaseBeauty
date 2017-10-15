@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mulher1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#80ffd5f4"
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/btnviewpager"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vamos Lá !"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:layout_alignBottom="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:textColor="#9f306b"
+            android:focusable="false" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/btnviewpager"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="JumpToLogin"
+        android:background="@drawable/screen_border"
+        android:backgroundTint="#66e72bac"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/relativeLayout" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView14"
+                android:background="@drawable/ic_pager"
+                android:backgroundTint="#80ffffff" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView15"
+                android:background="@drawable/ic_pager"
+                android:backgroundTint="#80ffffff" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView16"
+                android:background="@drawable/ic_pager_selecionado"
+                android:backgroundTint="#80ffffff" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:gravity="right"
+            android:text="_________________________________"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#4d3a82"
+            android:textAlignment="center"
+            android:background="#80ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Cadastrar"
+        android:id="@+id/button3"
+        android:onClick="JumpToRegistrar"
+        android:background="@drawable/screen_border"
+        android:backgroundTint="#66e72bac"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="4dp"
+        android:layout_below="@+id/textView78" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:gravity="right"
+        android:text="_________________________________"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#4d3a82"
+        android:textAlignment="center"
+        android:background="#80ffffff"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_alignRight="@+id/btnviewpager"
+        android:layout_alignEnd="@+id/btnviewpager" />
+
+</RelativeLayout>

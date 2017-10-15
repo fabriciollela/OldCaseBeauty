@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_vector_home"
+            android:title="Solicitar Serviço" />
+        <item
+            android:id="@+id/nav_atendersol"
+            android:icon="@drawable/ic_vector_atender"
+            android:title="Atender Solicitação" />
+    </group>
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_vector_perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_cadprof"
+            android:icon="@drawable/ic_vector_cadprof"
+            android:title="Cadastro Profissional" />
+        <item
+            android:id="@+id/nav_ajuda"
+            android:icon="@drawable/ic_vector_ajuda"
+            android:title="Ajuda" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_vector_sobre"
+            android:title="Sobre" />
+    <item
+        android:id="@+id/nav_mural"
+        android:icon="@drawable/abc_ratingbar_full_material"
+        android:title="Mural" />
+
+
+
+    <item android:title="Seja você um CASE de Sucesso !">
+        <menu>
+            <item
+                android:id="@+id/nav_site"
+                android:title="Acesse nosso site"
+                android:icon="@drawable/ic_vector_internet"/>
+        </menu>
+    </item>
+
+
+</menu>

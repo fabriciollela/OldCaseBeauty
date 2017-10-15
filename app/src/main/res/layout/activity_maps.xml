@@ -1,0 +1,280 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.caseb.case_beauty_.MapsActivity">
+
+
+    <LinearLayout
+        android:id="@+id/Maps_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/maps_activity_form"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/abc_cab_background_internal_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/abc_cab_background_top_material"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/TFaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Insira sua Localização" />
+
+
+                <Button
+                    android:id="@+id/Bsearch"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.32"
+                    android:adjustViewBounds="true"
+                    android:onClick="onSearch"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/screen_border"
+                    android:drawableBottom="@drawable/ic_find_location"
+                    android:drawableTint="#FFFF"
+                    android:backgroundTint="#66e72bac"
+                    android:layout_marginBottom="7dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/listViewAjuda"
+                android:background="#000000"
+                android:gravity="right"
+                android:text="_________________________________"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#4d3a82" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView22"
+                android:layout_marginTop="8dp"
+                android:background="#ffff"
+                android:weightSum="1">
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/map"
+                    class="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="370dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    tools:context=".MapsActivity" />
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:background="#8b96006e">
+
+                    <Button
+                        android:id="@+id/Btype"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="@drawable/screen_border"
+                        android:backgroundTint="#66e72bac"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="changeType"
+                        android:text="@string/tipo_mapa"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp" />
+
+                    <Button
+                        android:id="@+id/Bzoomin"
+                        android:layout_width="44dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="175dp"
+                        android:background="@drawable/screen_border"
+                        android:backgroundTint="#66e72bac"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="onZoom"
+                        android:text="+"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:id="@+id/Bzoomout"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="44dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/screen_border"
+                        android:backgroundTint="#66e72bac"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="onZoom"
+                        android:text="-"
+                        android:textAlignment="center"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="2dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="#ffff"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="72dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/button2"
+                    android:layout_marginLeft="7dp"
+                    android:background="@drawable/screen_border"
+                    android:backgroundTint="#66e72bac"
+                    android:text="@string/btmEstimavalor"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:onClick="estimarValor" />
+
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="right"
+                    android:layout_weight="0.79"
+                    android:background="@drawable/screen_border"
+                    android:backgroundTint="#66e72bac"
+                    android:text="@string/btnEnviaSolicita"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="4dp"
+                    android:onClick="solicitar" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView25"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#000000" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Selecione os serviços"
+                        android:id="@+id/textView30"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/textView31"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_below="@+id/textView25"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="#000000"
+                    android:layout_marginTop="23dp" />
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ExpandableListView
+                        android:id="@+id/lvExp"
+                        android:layout_width="370dp"
+                        android:layout_height="203dp"
+                        android:layout_marginTop="4dp"
+                        android:background="@drawable/abc_cab_background_internal_bg"
+                        android:divider="@color/colorAccent"
+                        android:dividerHeight="1dp"
+                        android:drawSelectorOnTop="true"
+                        android:fastScrollAlwaysVisible="false"
+                        android:fastScrollEnabled="false"
+                        android:focusableInTouchMode="false"
+                        android:headerDividersEnabled="true"
+                        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorRight"
+                        android:listSelector="#75761EE1"
+                        android:scrollbars="none"
+                        android:smoothScrollbar="true"
+                        android:stackFromBottom="false"
+                        android:theme="@style/AppTheme"
+                        android:layout_marginLeft="7dp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

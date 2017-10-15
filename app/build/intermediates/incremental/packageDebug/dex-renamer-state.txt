@@ -1,0 +1,7 @@
+#Sat Oct 14 22:09:03 BRT 2017
+base.0=C\:\\Users\\fabri\\StudioProjects\\casebeauty\\C.A.S.E.-Beauty_4.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ef44b0641f392832404ac95c9b6701f2ffcaeef2
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\fabri\\StudioProjects\\casebeauty\\C.A.S.E.-Beauty_4.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f207a6d386a442641bbc101e59f39510422c3e88\\classes.dex
+base.1=C\:\\Users\\fabri\\StudioProjects\\casebeauty\\C.A.S.E.-Beauty_4.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f207a6d386a442641bbc101e59f39510422c3e88
+file.0=C\:\\Users\\fabri\\StudioProjects\\casebeauty\\C.A.S.E.-Beauty_4.1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ef44b0641f392832404ac95c9b6701f2ffcaeef2\\classes.dex

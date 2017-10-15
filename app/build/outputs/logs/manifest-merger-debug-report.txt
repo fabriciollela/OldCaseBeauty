@@ -1,0 +1,405 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:2:1-161:12
+	package
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:8:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\fabri\.android\build-cache\ef24fde9d5df25de84f46869f4821940756b5007\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\fabri\.android\build-cache\b64b3dfa76e374f066af03c364d0d8c3f43c27d2\output\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\fabri\.android\build-cache\8af9bf80a71843d76262e54a2d310c5a4ddb4a01\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:18:5-98
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:18:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\fabri\.android\build-cache\ef24fde9d5df25de84f46869f4821940756b5007\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\fabri\.android\build-cache\03f1f95400ef10c032a3a12e3af78b8fc6d18d97\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\fabri\.android\build-cache\8af9bf80a71843d76262e54a2d310c5a4ddb4a01\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:27:22-64
+application
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:29:5-159:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\fabri\.android\build-cache\8fb9fe438b11c968b0bb164f0e37f8f7d8d1959f\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\fabri\.android\build-cache\f349f8ae29655b0156ed6dc9dbab666cb12b5b06\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\fabri\.android\build-cache\ef24fde9d5df25de84f46869f4821940756b5007\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\fabri\.android\build-cache\3ac1e86414ec6d920a4965f64444f74dfd3e1f5c\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\fabri\.android\build-cache\47517167fe24e3f5c525b1fb419085e14fd9f5cf\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\fabri\.android\build-cache\a7d7400c5b2d63fa7dcd59b26f4a011329b50385\output\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\fabri\.android\build-cache\3ed4319a5e677746ed331386087df353f31ff204\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\fabri\.android\build-cache\1c42aa2ee945e6c043f008a76fe64819b588fe8a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\fabri\.android\build-cache\8c35d041eb491e39bc6121db98eb86d0243ab1b2\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\fabri\.android\build-cache\22a0ec610e0a36dafc20b190af66cb80e40c2ebe\output\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\fabri\.android\build-cache\3a79e134b763df60b9d435e518ec94f6a0f7caa2\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\fabri\.android\build-cache\82abe8ef1931a18f03bca85ce2e4b41d79e48c58\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\fabri\.android\build-cache\85871a93f38882ae1711c37bad204263aa6f311b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\fabri\.android\build-cache\03f1f95400ef10c032a3a12e3af78b8fc6d18d97\output\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\fabri\.android\build-cache\21e86f5854b0c66fbadd4af8070b3aa2a9c74d89\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\fabri\.android\build-cache\b64b3dfa76e374f066af03c364d0d8c3f43c27d2\output\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\fabri\.android\build-cache\c5e8e9051e2a6db3fab5ff4e67f3c91a240e1cac\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\fabri\.android\build-cache\1bad64e0fdaed54c5aff6fbbaa17089b67e9b888\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\fabri\.android\build-cache\23c106d45f28c6b8c452420bd27d22b89397299b\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\fabri\.android\build-cache\955886281cf9c5e0842d443137a2ae0cf510f127\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\fabri\.android\build-cache\12f14f37c89ae1e46882a40b3bf43bb5d1980194\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\fabri\.android\build-cache\8af9bf80a71843d76262e54a2d310c5a4ddb4a01\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\fabri\.android\build-cache\589c509745d0df8c553f9551732e21676de41246\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\fabri\.android\build-cache\96d8990034fb74d105fd0bb70e324dd0d0c7ad00\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\fabri\.android\build-cache\98c22dc68c93933a0873c909e4607e86572d53ac\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:32:9-41
+	android:supportsRtl
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:33:9-35
+	android:allowBackup
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:31:9-43
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:34:9-40
+activity#com.caseb.case_beauty_.SplashscreenActivity
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:35:9-44:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:37:13-45
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:36:13-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:39:13-43:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:42:27-74
+activity#com.caseb.case_beauty_.LoginActivity
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:45:9-48:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:47:13-45
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:46:13-42
+activity#com.caseb.case_beauty_Fargments.Perfil
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:49:9-52:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:51:13-58
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:50:13-66
+activity#com.caseb.case_beauty_Fargments.MuralFragment
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:53:9-56:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:55:13-46
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:56:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:54:13-73
+activity#com.caseb.case_beauty_.Registrar
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:57:9-61:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:59:13-61
+	android:parentActivityName
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:60:13-55
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:58:13-38
+activity#com.caseb.case_beauty_.RecuperarSenha
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:62:9-66:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:64:13-48
+	android:parentActivityName
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:65:13-55
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:63:13-43
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:69:9-71:45
+	android:value
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:71:13-42
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:70:13-59
+activity#com.caseb.case_beauty_Fargments.Sobre
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:73:9-76:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:75:13-57
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:76:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:74:13-65
+activity#com.caseb.case_beauty_Fargments.TabelaPreco
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:77:9-80:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:79:13-64
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:80:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:78:13-71
+activity#com.caseb.case_beauty_.EsqueceSenha
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:81:9-85:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:83:13-61
+	android:parentActivityName
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:84:13-55
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:82:13-41
+activity#com.caseb.case_beauty_Fargments.Ajuda
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:91:9-94:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:93:13-57
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:94:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:92:13-65
+activity#com.caseb.case_beauty_.MainActivity
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:95:9-98:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:97:13-56
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:96:13-41
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:107:9-109:55
+	android:value
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:109:13-52
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:108:13-58
+activity#com.caseb.case_beauty_.MapsActivity
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:111:9-120:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:113:13-46
+	android:parentActivityName
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:114:13-55
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:112:13-41
+activity#com.caseb.case_beauty_Fargments.AtenderSolicitacao
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:122:9-125:59
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:124:13-71
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:125:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:123:13-78
+activity#com.caseb.case_beauty_.NovoActivity
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:126:9-128:45
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:128:13-42
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:127:13-41
+activity#com.caseb.case_beauty_.ListaActivity
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:129:9-131:37
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:131:13-34
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:130:13-42
+activity#com.caseb.case_beauty_.TabbedActivity
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:132:9-141:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:134:13-54
+	android:parentActivityName
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:135:13-55
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:133:13-43
+activity#com.caseb.case_beauty_.AtenderSolicitacaoSwipe
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:142:9-151:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:144:13-48
+	android:parentActivityName
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:145:13-55
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:143:13-52
+activity#com.caseb.case_beauty_.ViewPagerIni
+ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:153:9-157:20
+	android:label
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:155:13-45
+	android:theme
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml:154:13-41
+uses-sdk
+INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.4.0] C:\Users\fabri\.android\build-cache\8fb9fe438b11c968b0bb164f0e37f8f7d8d1959f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\fabri\.android\build-cache\7d130b8878ca63f48fdbfff55abc92e2a7f73c0d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\fabri\.android\build-cache\f349f8ae29655b0156ed6dc9dbab666cb12b5b06\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\fabri\.android\build-cache\ef24fde9d5df25de84f46869f4821940756b5007\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\fabri\.android\build-cache\3ac1e86414ec6d920a4965f64444f74dfd3e1f5c\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\fabri\.android\build-cache\47517167fe24e3f5c525b1fb419085e14fd9f5cf\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\fabri\.android\build-cache\a7d7400c5b2d63fa7dcd59b26f4a011329b50385\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\fabri\.android\build-cache\3ed4319a5e677746ed331386087df353f31ff204\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\fabri\.android\build-cache\1c42aa2ee945e6c043f008a76fe64819b588fe8a\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\fabri\.android\build-cache\8c35d041eb491e39bc6121db98eb86d0243ab1b2\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\fabri\.android\build-cache\22a0ec610e0a36dafc20b190af66cb80e40c2ebe\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\fabri\.android\build-cache\3a79e134b763df60b9d435e518ec94f6a0f7caa2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\fabri\.android\build-cache\82abe8ef1931a18f03bca85ce2e4b41d79e48c58\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\fabri\.android\build-cache\85871a93f38882ae1711c37bad204263aa6f311b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\fabri\.android\build-cache\03f1f95400ef10c032a3a12e3af78b8fc6d18d97\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\fabri\.android\build-cache\21e86f5854b0c66fbadd4af8070b3aa2a9c74d89\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\fabri\.android\build-cache\b64b3dfa76e374f066af03c364d0d8c3f43c27d2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\fabri\.android\build-cache\c5e8e9051e2a6db3fab5ff4e67f3c91a240e1cac\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\fabri\.android\build-cache\1bad64e0fdaed54c5aff6fbbaa17089b67e9b888\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\fabri\.android\build-cache\23c106d45f28c6b8c452420bd27d22b89397299b\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\fabri\.android\build-cache\955886281cf9c5e0842d443137a2ae0cf510f127\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\fabri\.android\build-cache\2480288bcd97055af1cdea7705b94d0bdfa96c3f\output\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\fabri\.android\build-cache\12f14f37c89ae1e46882a40b3bf43bb5d1980194\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\fabri\.android\build-cache\8af9bf80a71843d76262e54a2d310c5a4ddb4a01\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\fabri\.android\build-cache\589c509745d0df8c553f9551732e21676de41246\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\fabri\.android\build-cache\51d659614db8e719bff87c40d296560c44db1050\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\fabri\.android\build-cache\96d8990034fb74d105fd0bb70e324dd0d0c7ad00\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\fabri\.android\build-cache\98c22dc68c93933a0873c909e4607e86572d53ac\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\fabri\.android\build-cache\1c42aa2ee945e6c043f008a76fe64819b588fe8a\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\fabri\.android\build-cache\7b9309c9d314e38d19205af10f30ecdbada77155\output\AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\fabri\.android\build-cache\18801e70963dbb2665b3a63037efcde306c9ec7b\output\AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\fabri\.android\build-cache\6a7219e32fcc4e3d74a7c1590c5d5e2a7988aa0a\output\AndroidManifest.xml:29:13-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\fabri\.android\build-cache\03f1f95400ef10c032a3a12e3af78b8fc6d18d97\output\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\fabri\.android\build-cache\03f1f95400ef10c032a3a12e3af78b8fc6d18d97\output\AndroidManifest.xml:21:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\fabri\.android\build-cache\68d7f68c361290bdcf0ebca92e2e0ec211bb3e25\output\AndroidManifest.xml:42:11-82
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\fabri\.android\build-cache\8af9bf80a71843d76262e54a2d310c5a4ddb4a01\output\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\fabri\.android\build-cache\8af9bf80a71843d76262e54a2d310c5a4ddb4a01\output\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\fabri\.android\build-cache\8af9bf80a71843d76262e54a2d310c5a4ddb4a01\output\AndroidManifest.xml:24:8-31
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\fabri\.android\build-cache\96d8990034fb74d105fd0bb70e324dd0d0c7ad00\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\fabri\.android\build-cache\96d8990034fb74d105fd0bb70e324dd0d0c7ad00\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\fabri\.android\build-cache\96d8990034fb74d105fd0bb70e324dd0d0c7ad00\output\AndroidManifest.xml:22:13-58

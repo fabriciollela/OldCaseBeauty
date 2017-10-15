@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "163501454481",
+    "firebase_url": "https://case-beauty.firebaseio.com",
+    "project_id": "case-beauty",
+    "storage_bucket": "case-beauty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163501454481:android:ea17d02a65190cc3",
+        "android_client_info": {
+          "package_name": "com.caseb.case_beauty_"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163501454481-6f1l7ia1pui8o69dqh8bjitrqhfjmsrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_7nsOxUem_rwYIGTKY0U73qYnaBl4_F4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">C.AS.E. - Beauty</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Próximo</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha Incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_acesso_funcional">AcessoFuncional</string>
+    <string name="button_registrar">Registre-se</string>
+    <string name="butto_esquece_senha">Esqueceu sua senha?</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="btnSalvarPerfil">Salvar Perfil</string>
+    <string name="title_activity_perfil_prof">PerfilProf</string>
+    <string name="btnSalvarPerfilProf">Salvar Perfil Profissional</string>
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="btnRegistro">Registrar</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_tabela_preco">TabelaPreco</string>
+    <string name="title_activity_esquece_senha">EsqueceSenha</string>
+    <string name="btnEnviarEmailEsquecesenha">Enviar Email</string>
+    <string name="title_activity_ajuda">Ajuda</string>
+    <string name="title_activity_main">C.A.S.E. - Beauty</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_atender_solicitacao">AtenderSolicitacao</string>
+    <string name="btnVerDetalhes">Ver Detalhes</string>
+    <string name="btnRecusarAtendimento">Recusar</string>
+    <string name="btnEfetuarAtendimento">Efetuar Atendimento</string>
+    <string name="btmEstimavalor">Estimar Valor</string>
+    <string name="btnEnviaSolicita">Enviar localização e Solicitar</string>
+    <string name="btnAtenderSolicitacao">Atender Solicitação</string>
+    <string name="textViewSlogan">Venha viver o lado beauty da vida !</string>
+    <string name="btnAvaliarGP">Avalie-nos na Google Play</string>
+    <string name="btnCurtirPagFace">Curta nossa página no Facebook</string>
+    <string name="btnVersao">Versão</string>
+    <string name="btnComoUsar">Como usar o C.A.S.E</string>
+    <string name="btnPagamento">Pagamento</string>
+    <string name="textViewTituloSobre">Informações Adicionais</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+
+    <string name="demo_external_activity">Demo External Activity</string>
+
+    <string name="demo_collection">Demo Collection</string>
+    <string name="title_tabelapreco">Tabela de Preços</string>
+    <string name="btnContribuir">Contribua com nosso projeto</string>
+    <string name="title_activity_teste2">Teste2</string>
+    <string name="pesquisar_localizacao">Pesquisar </string>
+    <string name="tipo_mapa">Tipo de Mapa</string>
+
+    <string name="conteudo_mural"> "        Olá! Bem vindo ao C.A.S.E - Beauty, uma solução feita para você!
+
+        O C.A.S.E - Beauty é uma plataforma de tecnologia que conecta o profissional com os usuários por meio de um aplicativo para smartphones.</string>
+
+    <string name="conteudo_mural5">                                           Como funciona?</string>
+
+
+
+    <string name="conteudo_mural2"> "        Sua solicitação será enviada aos profissionais parceiros nas proximidades. Se um profissional parceiro aceitar a sua solicitação, o mesmo entrará em contato para marcar o atendimento.
+"</string>
+
+    <string name="conteudo_mural3"> "        Para saber mais sobre o funcionamento do C.a.s.e Beauty, explore o menu "Ajuda" na opção "Manual". Para acessar o menu deslize para direita.</string>
+    <string name="conteudo_mural4"> "                Venha viver o lado beauty da vida !</string>
+
+
+
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f207a6d386a442641bbc101e59f39510422c3e88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e0ad207868e6c647fd96de39902f873bebdc3e6">
+        <dex dex="C:\Users\fabri\StudioProjects\casebeauty\C.A.S.E.-Beauty_4.1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ef44b0641f392832404ac95c9b6701f2ffcaeef2\classes.dex" />
+    </item>
+
+</items>

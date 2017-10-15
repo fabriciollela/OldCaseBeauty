@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewNomeCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignTop="@+id/btnVerLocalizacao"
+        android:layout_toRightOf="@+id/textView75"
+        android:layout_toEndOf="@+id/textView75"
+        android:layout_marginLeft="4dp" />
+
+    <TextView
+        android:id="@+id/textViewServicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/textViewNomeCliente"
+        android:layout_toRightOf="@+id/textView75"
+        android:layout_toEndOf="@+id/textView75"
+        android:layout_marginLeft="4dp" />
+
+    <ImageButton
+        android:id="@+id/btnVerLocalizacao"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/screen_border"
+        android:backgroundTint="#66e72bac"
+        android:drawableLeft="@drawable/ic_mapa_ver"
+        android:drawableTint="#ffffff"
+        android:src="@drawable/ic_mapa_ver"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.21"
+        android:layout_marginRight="50dp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cliente"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignWithParentIfMissing="false"
+        android:textStyle="bold"
+        android:layout_above="@+id/textViewServicos"
+        android:layout_marginLeft="8dp" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviços:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textViewServicos"
+        android:layout_alignRight="@+id/textView75"
+        android:layout_alignEnd="@+id/textView75" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_alignTop="@+id/btnVerLocalizacao"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false"
+        style="@android:style/Widget.CompoundButton.CheckBox" />
+
+</RelativeLayout>
